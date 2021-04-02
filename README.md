@@ -12,6 +12,7 @@ should create 2 documents 1 in the `pizza` collection and 1 in the `drinks` coll
 - Post request on `localhost:4000/transaction`
 
 Expected: insert the 2 documents into the database
+
 Actual: Fails with error
 
 ## Replica set
@@ -21,6 +22,7 @@ Actual: Fails with error
 - Post request on `localhost:4000/transaction`
 
 Expected: insert the 2 documents into the database
+
 Actual: inserts successfully
 
 ## Test roll-back
