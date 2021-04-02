@@ -1,0 +1,19 @@
+{
+  "name": "mongo-acid-transaction",
+  "version": "1.0.0",
+  "description": "Mongo ACID transactions simple example",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "transaction"
+  ],
+  "author": "Ahmed Adel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.5"
+  }
+}
